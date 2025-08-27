@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="logo.jpg" >
+
+  <title>StyleNest - Product</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">StyleNest</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-detail">
+    <div class="product-image">
+      <img src="image.png" alt="Product Image" />
+    </div>
+    <div class="product-info">
+      <h1>Women’s formal Shirt</h1>
+      <p class="price">$39.99</p>
+      <p>This high-quality formal shirt is perfect for everyday wear. Made with breathable fabric and a stylish fit.</p>
+      <label>Quantity:</label>
+      <input type="number" value="1" min="1" />
+      <button class="btn" onclick="addToCart('Women’s formal Dress ', 29.99, 'image.png')">
+  Add to Cart
+</button>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 StyleNest. All rights reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

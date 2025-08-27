@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="logo.jpg" >
+
+  <title>StyleNest - Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">StyleNest</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart-section">
+  <h1>Your Shopping Cart</h1>
+  <div id="cart-items"></div> <!-- This will be filled by JS -->
+  <h2>Total: <span id="total-price">$0.00</span></h2>
+</section>
+
+  <footer>
+    <p>&copy; 2025 StyleNest. All rights reserved.</p>
+  </footer>
+<script src="js/script.js"></script>
+<script>
+  renderCart();
+</script>
+
+</body>
+</html>
